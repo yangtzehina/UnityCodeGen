@@ -24,7 +24,7 @@ By defining your own Generator that inherits from ICodeGenerator, you can genera
 1. Open the Package Manager from Window > Package Manager
 2. "+" button > Add package from git URL
 3. Enter the following to install
-   * https://github.com/AnnulusGames/UnityCodeGen.git?path=/Assets/UnityCodeGen
+   * https://github.com/yangtzehina/UnityCodeGen.git?path=/Assets/UnityCodeGen
 
 
 or open Packages/manifest.json and add the following to the dependencies block.
@@ -32,7 +32,7 @@ or open Packages/manifest.json and add the following to the dependencies block.
 ```json
 {
     "dependencies": {
-        "com.annulusgames.unity-codegen": "https://github.com/AnnulusGames/UnityCodeGen.git?path=/Assets/UnityCodeGen"
+        "com.annulusgames.unity-codegen": "https://github.com/yangtzehina/UnityCodeGen.git?path=/Assets/UnityCodeGen"
     }
 }
 ```
